@@ -47,7 +47,6 @@ Host *.github.com
   - `git config --global gpg.format ssh` it will specify the format of key is being used for sign and 
   -`git config --global user.signingkey ~/.ssh/id_ed25519.pub` add path of your ssh keys 
 - commit command with verified signature 
-  - `git commit -S -m "message"`  or add these-
- after this commit will ask for passphrase
-`git config --global commit.gpgsign true` after this no need to use -S flag with git commit.
+  - `git commit -S -m "message"`  this commit will be a sign commit.
+  - or `git config --global commit.gpgsign true` or adding this line into gitconfig, this will be no need to use -S flag with git commit.
 
