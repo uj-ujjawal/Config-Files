@@ -8,3 +8,4 @@ This repo contains of different configuration files and scripts that I like to u
 - [ZSH Config](zsh.md)
 - [HOMEBREW](brew%20List.md)
 - [Adds-Trackers](add-trackers.md)
+- [git and github](./git-github.md)
