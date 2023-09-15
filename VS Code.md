@@ -1,8 +1,22 @@
 # VS Code Settings
 
-List of All Extensions Themes and Settings that I like to use with **VC Code**.
+- [VS Code Settings](#vs-code-settings)
+  - [Extension list](#extension-list)
+    - [Default for all profile](#default-for-all-profile)
+    - [C/C++\*\*](#cc)
+    - [Java](#java)
+    - [HTML CSS JS](#html-css-js)
+    - [Node js - npm, yarn etc](#node-js---npm-yarn-etc)
+    - [React](#react)
+  - [Theme and icons](#theme-and-icons)
+  - [Fonts](#fonts)
+  - [Extras](#extras)
+  - [Settings (User Settings - JSON)](#settings-user-settings---json)
+  - [Keybindings](#keybindings)
 
-## Default for all profile
+## Extension list
+
+### Default for all profile
 
 - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 - [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
@@ -19,12 +33,9 @@ List of All Extensions Themes and Settings that I like to use with **VC Code**.
 - [Pieces for VS Code](https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode)
 - [todo tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 - [code spell checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-
-## Extension Language Specific
-
 - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
-## C/C++**
+### C/C++**
 
 - [C/C++ Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack)
 - [Better C++ Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax)
@@ -32,11 +43,11 @@ List of All Extensions Themes and Settings that I like to use with **VC Code**.
 - [C/C++ Project Generator](https://marketplace.visualstudio.com/items?itemName=danielpinto8zz6.c-cpp-project-generator)
 - [C/C++ Snippets](https://marketplace.visualstudio.com/items?itemName=hars.CppSnippets)
 
-## Java
+### Java
 
 - [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
-## HTML CSS JS
+### HTML CSS JS
 
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
@@ -54,13 +65,13 @@ List of All Extensions Themes and Settings that I like to use with **VC Code**.
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 - [Babel js](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel)
 
-## Node js - npm, yarn etc
+### Node js - npm, yarn etc
 
 - [NPM](https://marketplace.visualstudio.com/items?itemName=idered.npm)
 - [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 - [npm Outdated](https://marketplace.visualstudio.com/items?itemName=mskelton.npm-outdated)
 
-## React
+### React
 
 - [React CSS modules](https://marketplace.visualstudio.com/items?itemName=viijay-kr.react-ts-css)
 
@@ -90,84 +101,79 @@ List of All Extensions Themes and Settings that I like to use with **VC Code**.
 
 ```JSON
 {
-  //Search Prefs
+  /* zoom size of vscode window */
+  "window.zoomLevel": -1,
+  /* search */
   "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,
     "**/*.code-search": true
   },
   "search.useIgnoreFiles": false,
-
-  //Workbench Prefs
+  "extensions.ignoreRecommendations": true,
+  /* auto save */
+  "files.autoSave": "afterDelay",
+  "files.exclude": {
+    "**/.*": true
+  },
+  /* workbench, sidebar,etc */
+  "workbench.colorTheme": "Bearded Theme Black & Diamond",
   "workbench.sideBar.location": "right",
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#05ef3c"
+  },
+  "vsicons.dontShowNewVersionMessage": false,
   "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Tokyo Night",
-  "workbench.editorLargeFileConfirmation": 2048,
-  //for theme night-owl - Separate the Editor from the Sidebar only
-  /*  "workbench.colorCustomizations": {
-    "[Night Owl]": {
-      "activityBar.background": "#000C1D",
-      "activityBar.border": "#102a44",
-      "editorGroup.border": "#102a44",
-      "sideBar.background": "#001122",
-      "sideBar.border": "#102a44",
-      "sideBar.foreground": "#8BADC1"
-    },
-    "[Night Owl (No Italics)]": {
-      "activityBar.background": "#000C1D",
-      "activityBar.border": "#102a44",
-      "editorGroup.border": "#102a44",
-      "sideBar.background": "#001122",
-      "sideBar.border": "#102a44",
-      "sideBar.foreground": "#8badc1"
-    }
-  }, */
-
-  "explorer.openEditors.visible": 0,
+  /* explorer setting */
+  //  "explorer.openEditors.visible": 1,
   "explorer.confirmDelete": false,
-  "editor.suggestSelection": "first",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  /* editor setting */
   "editor.snippetSuggestions": "top",
-  "editor.linkedEditing": true, //Automatically edit a closing tag when editing an opening tag
+  "editor.linkedEditing": true,
   "editor.formatOnPaste": false,
   "editor.emptySelectionClipboard": false,
   "editor.formatOnSave": true,
-  "editor.minimap.enabled": false,
-  "editor.fontFamily": "'Cascadia Mono PL','Operator Mono','JetBrains Mono'",
-  "editor.fontSize": 16,
+  "editor.fontFamily": "'PT Mono','Cascadia Mono PL','JetBrains Mono','Operator Mono'",
+  "editor.fontWeight": "300",
+  "editor.letterSpacing": 1.5,
+  "editor.cursorBlinking": "expand",
   "editor.indentSize": "tabSize",
-  "editor.tabSize": 2,
-  "editor.detectIndentation": true,
+  "editor.detectIndentation": false,
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.scrollBeyondLastLine": false,
+  "editor.mouseWheelZoom": false,
+  "editor.inlineSuggest.enabled": true,
   "editor.wordWrap": "on",
-
-  "editor.lineHeight": 1.8,
-  
-
-  //terminal prefs
-  "terminal.integrated.fontFamily": "'Anonymous Pro'",
-  "terminal.integrated.fontWeight": "bold",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "editor.wrappingIndent": "indent",
+  "editor.suggestSelection": "first",
+  "editor.lineHeight": 0,
+  "editor.fontSize": 18,
+  "editor.guides.bracketPairs": true,
+  "editor.minimap.autohide": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.scale": 2,
+  "editor.renderWhitespace": "boundary",
+  "editor.tokenColorCustomizations": {
+    "comments": "#8c9639"
+  },
+  //"editor.scrollBeyondLastLine": false,
+  //"editor.formatOnPaste": false,
+  /* terminal */
+  "terminal.integrated.fontFamily": "'PT Mono','CaskaydiaCove Nerd Font Mono', 'Anonymous Pro'",
+  "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontSize": 18,
 
-  "git.autofetch": true,
-  "diffEditor.ignoreTrimWhitespace": false, //for git tarce
-
-  "vsicons.dontShowNewVersionMessage": true,
-  "extensions.ignoreRecommendations": true,
   "terminal.external.osxExec": "iterm.app",
   "terminal.explorerKind": "external",
-  "editor.mouseWheelZoom": false,
+  "terminal.integrated.hideOnStartup": "always",
+  "terminal.integrated.env.osx": {},
 
-  //rest custome prefs goes here time to time
-  
-  "javascript.updateImportsOnFileMove.enabled": "always",
-
-  "window.restoreWindows": "preserve",
-  "cph.general.defaultLanguage": "java",
-  "eslint.enable": true,
-  "eslint.validate": ["vue", "react", "typescript", "javascript"],
-
-  "prettier.tabWidth": 2,
+  "pieces.setCopilotLocation": true,
 
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -181,16 +187,53 @@ List of All Extensions Themes and Settings that I like to use with **VC Code**.
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "liveServer.settings.donotShowInfoMsg": true,
   "[python]": {
     "editor.formatOnType": true
-  }
+  },
+  "redhat.telemetry.enabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.enable": true,
+  "eslint.validate": ["vue", "react", "typescript", "javascript"],
+  "prettier.jsxSingleQuote": true,
+  "prettier.bracketSameLine": true,
+  "prettier.bracketSpacing": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "git.openRepositoryInParentFolders": "always", //github
+  "diffEditor.experimental.showMoves": true,
+  "git.autofetch": true,
+  "diffEditor.ignoreTrimWhitespace": false, //for git tarce
+  "cSpell.userWords": ["Codepen", "concat", "iostream"],
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "DOUBT"
+  ],
+  "code-runner.runInTerminal": true
 }
+//"jsxBracketSameLine": false,
+//"jsxSingleQuote": false,
+//  "singleQuote": false,
+//arrowParens": "always",
+//"bracketSpacing": true,
+
 ```
 
 ## Keybindings
 
 ```JSON
+// Place your key bindings in this file to override the defaults
 [
   {
     "key": "cmd+1",
@@ -327,6 +370,25 @@ List of All Extensions Themes and Settings that I like to use with **VC Code**.
   {
     "key": "cmd+8",
     "command": "-workbench.action.focusEighthEditorGroup"
+  },
+  {
+    "key": "shift+cmd+v",
+    "command": "-markdown.extension.closePreview",
+    "when": "markdownPreviewFocus"
+  },
+  {
+    "key": "cmd+k v",
+    "command": "-markdown.extension.closePreview",
+    "when": "markdownPreviewFocus"
+  },
+  {
+    "key": "shift+cmd+v",
+    "command": "-markdown.showPreview",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "alt+p",
+    "command": "workbench.profiles.actions.switchProfile"
   }
 ]
 ```
