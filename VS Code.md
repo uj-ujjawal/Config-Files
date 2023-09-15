@@ -1,68 +1,70 @@
 # VS Code Settings
 
-List of All Extensions Thems and Settings that I like to you with **VC Code**.
+List of All Extensions Themes and Settings that I like to use with **VC Code**.
 
-## Extensions Lists
-
-**For Comment Notes:**
+## Default for all profile
 
 - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+- [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
+- [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
+- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+- [FontSize Shortcuts](https://marketplace.visualstudio.com/items?itemName=fosshaas.fontsize-shortcuts) -- optional
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
+- [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Pieces for VS Code](https://marketplace.visualstudio.com/items?itemName=MeshIntelligentTechnologiesInc.pieces-vscode)
+- [todo tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+- [code spell checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
-**For C++**:
-
-- [C/C++ Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack)
-
-**To complile & Run multiple programming language with a single click**:
+## Extension Language Specific
 
 - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
-**For Screenshot**:
+## C/C++**
 
-- [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
+- [C/C++ Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack)
+- [Better C++ Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax)
+- [C/C++ Advanced Lint](https://marketplace.visualstudio.com/items?itemName=jbenden.c-cpp-flylint)
+- [C/C++ Project Generator](https://marketplace.visualstudio.com/items?itemName=danielpinto8zz6.c-cpp-project-generator)
+- [C/C++ Snippets](https://marketplace.visualstudio.com/items?itemName=hars.CppSnippets)
 
-**For Competitve Programming**:
-
-- [CPH](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper)
-
-**To Integreate ESLint with VScode**:
-
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
-**For Java**:
+## Java
 
 - [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
-**To Change the only the font size of editor with keyboard shortcuts not the whole IDE**:
-
-- [FontSize Shortcuts](https://marketplace.visualstudio.com/items?itemName=fosshaas.fontsize-shortcuts)
-
-**Makes indentation easier to read (Most useful in python)**:
-
-- [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+## HTML CSS JS
 
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-  
-**Manage npm, yarn, pnpm, dependencies from sidebar**:
+- [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
+- [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
+- [CSS Var Complete](https://marketplace.visualstudio.com/items?itemName=phoenisx.cssvar)
+- [className Completion in CSS](https://marketplace.visualstudio.com/items?itemName=zitup.classnametocss)
+- [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+- [Color Info](https://marketplace.visualstudio.com/items?itemName=bierner.color-info)
+- [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
+- [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
+- [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+- [JavaScript and TypeScript Nightly](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next)
+- [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
+- [postman](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode)
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [Babel js](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel)
+
+## Node js - npm, yarn etc
 
 - [NPM](https://marketplace.visualstudio.com/items?itemName=idered.npm)
+- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+- [npm Outdated](https://marketplace.visualstudio.com/items?itemName=mskelton.npm-outdated)
 
-**Format javascript, JSON, CSS, Sass**:
+## React
 
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [React CSS modules](https://marketplace.visualstudio.com/items?itemName=viijay-kr.react-ts-css)
 
-**JavaScript and TypeScript playground in your editor**:
-
-- [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
-
-**Vim emulation for Visual Studio Code**:
-
-- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
-
-**Icons for Visual Studio Code**:
-
-- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
-
-## Theme
+## Theme and icons
 
 - [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
 
@@ -78,41 +80,11 @@ List of All Extensions Thems and Settings that I like to you with **VC Code**.
 - [Operator Mono](https://www.typography.com/fonts/operator/styles) (if want italic feels)
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - [Anonymous Pro](https://fonts.google.com/specimen/Anonymous+Pro)
+- [PT Mono](#)
 
 ## Extras
 
-**Create files anywhere in your workspace from the keyboard**:
-
 - [advanced-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
-
-**Open pdf file in VSCode**:
-
-- [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
-
-**To use Github Codespace in VSCode**:
-
-- [GitHub Codespaces](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces)
-
-**Autocomplete npm imports**:
-
-- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
-
-**Displays a message in package.json files for packages with newer versions available**:
-
-- [npm Outdated](https://marketplace.visualstudio.com/items?itemName=mskelton.npm-outdated)
-
-**For jupitor Notebook**:
-
-- [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
-
-**For CSS**:
-
-- [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
-- [CSS Var Complete](https://marketplace.visualstudio.com/items?itemName=phoenisx.cssvar)
-
-**For React**:
-
-- [React CSS modules](https://marketplace.visualstudio.com/items?itemName=viijay-kr.react-ts-css)
 
 ## Settings (User Settings - JSON)
 
@@ -132,7 +104,7 @@ List of All Extensions Thems and Settings that I like to you with **VC Code**.
   "workbench.colorTheme": "Tokyo Night",
   "workbench.editorLargeFileConfirmation": 2048,
   //for theme night-owl - Separate the Editor from the Sidebar only
-  /*  "workbench.colorCustomizations": { 
+  /*  "workbench.colorCustomizations": {
     "[Night Owl]": {
       "activityBar.background": "#000C1D",
       "activityBar.border": "#102a44",
@@ -170,10 +142,7 @@ List of All Extensions Thems and Settings that I like to you with **VC Code**.
   "editor.wordWrap": "on",
 
   "editor.lineHeight": 1.8,
-  "files.autoSave": "afterDelay",
-  "files.exclude": {
-    "**/.*": true
-  },
+  
 
   //terminal prefs
   "terminal.integrated.fontFamily": "'Anonymous Pro'",
@@ -190,7 +159,7 @@ List of All Extensions Thems and Settings that I like to you with **VC Code**.
   "editor.mouseWheelZoom": false,
 
   //rest custome prefs goes here time to time
-  "code-runner.runInTerminal": true,
+  
   "javascript.updateImportsOnFileMove.enabled": "always",
 
   "window.restoreWindows": "preserve",
